@@ -17,6 +17,6 @@ public class ScreenmatchApplication implements CommandLineRunner {
 		var consumoApi = new ConsumoApi();
 		var json = consumoApi.obterDados("https://omdbapi.com/?t=stranger+things&Season=1&apikey=8b8785d3");
 		System.out.println(json);
-		//json = consumoApi.obterDados("");
+		//	json = consumoApi.obterDados("");
 	}
 }
